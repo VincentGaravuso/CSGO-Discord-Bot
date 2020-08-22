@@ -1,0 +1,10 @@
+C:\Users\vinny\source\repos\TutorialBot\bin\Debug\TutorialBot.exe.config
+C:\Users\vinny\source\repos\TutorialBot\bin\Debug\TutorialBot.exe
+C:\Users\vinny\source\repos\TutorialBot\bin\Debug\TutorialBot.pdb
+C:\Users\vinny\source\repos\TutorialBot\obj\Debug\TutorialBot.csprojAssemblyReference.cache
+C:\Users\vinny\source\repos\TutorialBot\obj\Debug\TutorialBot.csproj.CoreCompileInputs.cache
+C:\Users\vinny\source\repos\TutorialBot\obj\Debug\TutorialBot.csproj.CopyComplete
+C:\Users\vinny\source\repos\TutorialBot\obj\Debug\TutorialBot.exe
+C:\Users\vinny\source\repos\TutorialBot\obj\Debug\TutorialBot.pdb
+C:\Users\vinny\source\repos\TutorialBot\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\vinny\source\repos\TutorialBot\bin\Debug\System.Net.Http.Formatting.xml

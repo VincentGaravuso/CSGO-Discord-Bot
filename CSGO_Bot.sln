@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30406.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSGO_Bot", "CSGO_Bot.csproj", "{C9E77AD7-BF14-4D9D-9385-D18C133AD3F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9E77AD7-BF14-4D9D-9385-D18C133AD3F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9E77AD7-BF14-4D9D-9385-D18C133AD3F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9E77AD7-BF14-4D9D-9385-D18C133AD3F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9E77AD7-BF14-4D9D-9385-D18C133AD3F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {77CA1D36-A195-4C30-ABB2-C5EE40C50D9D}
+	EndGlobalSection
+EndGlobal
