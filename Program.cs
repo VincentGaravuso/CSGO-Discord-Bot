@@ -4,6 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
+using CSGO_Bot.Modules;
 using Discord;
 using Discord.Commands;
 using Discord.WebSocket;
@@ -23,13 +24,12 @@ namespace CSGO_Bot
         {
             _client = new DiscordSocketClient();
             _commands = new CommandService();
-
             _services = new ServiceCollection()
                 .AddSingleton(_client)
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "NzQ2NTAyNTc1OTU1NzcxNDYz.X0BQsw.Mg2nzRw3Nd45c1ThuIXuM9a1db4";
+            string token = "NzQ2NTAyNTc1OTU1NzcxNDYz.X0BQsw.KiGjWQxnVQZbOdbsLvvJB6WeLhI";
 
             _client.Log += _client_Log;
 
@@ -38,6 +38,8 @@ namespace CSGO_Bot
             await _client.LoginAsync(TokenType.Bot, token);
 
             await _client.StartAsync();
+            
+            Commands c = new Commands(_commands);
 
             await Task.Delay(-1);
 

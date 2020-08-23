@@ -69,5 +69,20 @@ namespace CSGO_Bot
             return root;
 
         }
+
+        public static async Task<UserInfoRoot> GetUserStats(string steamID)
+        {
+            string getStatsCommand = $"/profile/steam/{steamID}";
+            client.DefaultRequestHeaders.Clear();
+            client.DefaultRequestHeaders.Add("TRN-Api-Key", "100a7ea1-7e84-4a3c-a998-a31f89ae0718");
+            UserInfoRoot root = null;
+            HttpResponseMessage response = await client.GetAsync(apiString + getStatsCommand);
+            if (response.IsSuccessStatusCode)
+            {
+                root = await response.Content.ReadAsAsync<UserInfoRoot>();
+            }
+            return root;
+
+        }
     }
 }
