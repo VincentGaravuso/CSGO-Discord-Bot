@@ -29,7 +29,7 @@ namespace CSGO_Bot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "NzQ2NTAyNTc1OTU1NzcxNDYz.X0BQsw.3ZQJv9OolQ5dHonds2j1gOyrjZ8";
+            string token = "NzQ2NTAyNTc1OTU1NzcxNDYz.X0BQsw.Mg2nzRw3Nd45c1ThuIXuM9a1db4";
 
             _client.Log += _client_Log;
 
