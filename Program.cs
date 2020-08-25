@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using CSGO_Bot.Modules;
 using Discord;
@@ -15,7 +16,7 @@ namespace CSGO_Bot
     class Program
     {
         static void Main(string[] args) => new Program().RunBotAsync().GetAwaiter().GetResult();
-
+        private int counter = 0;
         private DiscordSocketClient _client;
         private CommandService _commands;
         private IServiceProvider _services;
@@ -29,7 +30,7 @@ namespace CSGO_Bot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "NzQ2NTAyNTc1OTU1NzcxNDYz.X0BQsw.KiGjWQxnVQZbOdbsLvvJB6WeLhI";
+            string token = "[TOKEN]";
 
             _client.Log += _client_Log;
 
@@ -40,6 +41,11 @@ namespace CSGO_Bot
             await _client.StartAsync();
             
             Commands c = new Commands(_commands);
+            var timer = new System.Threading.Timer(
+                e => SetDisplayGame(),
+                null,
+                TimeSpan.Zero,
+                TimeSpan.FromMinutes(1));
 
             await Task.Delay(-1);
 
@@ -56,7 +62,15 @@ namespace CSGO_Bot
             _client.MessageReceived += HandleCommandAsync;
             await _commands.AddModulesAsync(Assembly.GetEntryAssembly(), _services);
         }
-
+        private async void SetDisplayGame()
+        {
+            while(true)
+            {
+                counter++;
+                await _client.SetGameAsync($"No{counter} bugs### he!@#%^re"); 
+                Thread.Sleep(300000);
+            }
+        }
         private async Task HandleCommandAsync(SocketMessage arg)
         {
             var message = arg as SocketUserMessage;

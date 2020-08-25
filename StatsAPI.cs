@@ -45,7 +45,7 @@ namespace CSGO_Bot
         {
             string getStatsCommand = $"/search?platform=steam&query={steamID}";
             client.DefaultRequestHeaders.Clear();
-            client.DefaultRequestHeaders.Add("TRN-Api-Key", "100a7ea1-7e84-4a3c-a998-a31f89ae0718");
+            client.DefaultRequestHeaders.Add("TRN-Api-Key", "[KEY]");
             UserRoot root = null;
             HttpResponseMessage response = await client.GetAsync(apiString + getStatsCommand);
             if (response.IsSuccessStatusCode)
@@ -59,7 +59,7 @@ namespace CSGO_Bot
         {
             string getStatsCommand = $"/profile/steam/{steamID}/segments/map";
             client.DefaultRequestHeaders.Clear();
-            client.DefaultRequestHeaders.Add("TRN-Api-Key", "100a7ea1-7e84-4a3c-a998-a31f89ae0718");
+            client.DefaultRequestHeaders.Add("TRN-Api-Key", "[KEY]");
             Root root = null;
             HttpResponseMessage response = await client.GetAsync(apiString + getStatsCommand);
             if (response.IsSuccessStatusCode)
@@ -74,7 +74,7 @@ namespace CSGO_Bot
         {
             string getStatsCommand = $"/profile/steam/{steamID}";
             client.DefaultRequestHeaders.Clear();
-            client.DefaultRequestHeaders.Add("TRN-Api-Key", "100a7ea1-7e84-4a3c-a998-a31f89ae0718");
+            client.DefaultRequestHeaders.Add("TRN-Api-Key", "[KEY]");
             UserInfoRoot root = null;
             HttpResponseMessage response = await client.GetAsync(apiString + getStatsCommand);
             if (response.IsSuccessStatusCode)

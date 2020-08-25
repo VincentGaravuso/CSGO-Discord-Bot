@@ -1,0 +1,13 @@
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Release\CSGO_Bot.csprojAssemblyReference.cache
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Release\CSGO_Bot.csproj.CoreCompileInputs.cache
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Release\CSGO_Bot.exe.config
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Release\CSGO_Bot.exe
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Release\CSGO_Bot.pdb
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Release\Newtonsoft.Json.dll
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Release\System.Net.Http.Formatting.dll
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Release\Newtonsoft.Json.xml
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Release\System.Net.Http.Formatting.xml
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Release\CSGO_Bot.csproj.CopyComplete
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Release\CSGO_Bot.exe
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Release\CSGO_Bot.pdb
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Release\Settings.job

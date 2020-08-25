@@ -10,7 +10,6 @@ C:\Users\vinny\source\repos\TutorialBot - Copy\obj\Debug\TutorialBot.exe
 C:\Users\vinny\source\repos\TutorialBot - Copy\obj\Debug\TutorialBot.pdb
 C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Debug\System.Net.Http.Formatting.dll
 C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Debug\System.Net.Http.Formatting.xml
-C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Debug\CSGO_Bot.csprojAssemblyReference.cache
 C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Debug\CSGO_Bot.csproj.CoreCompileInputs.cache
 C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Debug\CSGO_Bot.csproj.CopyComplete
 C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Debug\CSGO_Bot.exe.config
@@ -18,3 +17,7 @@ C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Debug\CSGO_Bot.exe
 C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Debug\CSGO_Bot.pdb
 C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Debug\CSGO_Bot.exe
 C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Debug\CSGO_Bot.pdb
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Debug\Newtonsoft.Json.dll
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Debug\Newtonsoft.Json.xml
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\bin\Debug\Settings.job
+C:\Users\vinny\source\repos\CSGO_Discord_Bot\obj\Debug\CSGO_Bot.csprojAssemblyReference.cache

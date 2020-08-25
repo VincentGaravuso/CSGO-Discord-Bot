@@ -35,7 +35,7 @@ namespace CSGO_Bot.Modules
                     embd.AddField(user.platformUserHandle,
                         $"Platform {user.platformSlug}")
                         .WithImageUrl(user.avatarUrl);
-                    embd.WithColor(new Color(0x016FA0));
+                    embd.WithColor(Color.Red);
                     await ReplyAsync(embed: embd.Build());
                 }
                 else
@@ -81,7 +81,7 @@ namespace CSGO_Bot.Modules
                     embd.AddField(embdFieldBuilder);
                     embd.WithThumbnailUrl("https://i.pinimg.com/originals/b1/02/24/b10224ae75edd5debd06c44662cbcb30.png");
                 }
-                embd.WithColor(new Color(0x016FA0));
+                embd.WithColor(Color.Red);
                 await ReplyAsync(embed: embd.Build());
             }
             else
@@ -121,7 +121,7 @@ namespace CSGO_Bot.Modules
                     embd.AddField(embdFieldBuilder);
                     embd.WithThumbnailUrl("https://i.pinimg.com/originals/b1/02/24/b10224ae75edd5debd06c44662cbcb30.png");
                 }
-                embd.WithColor(new Color(0x016FA0));
+                embd.WithColor(Color.Red);
                 await ReplyAsync(embed: embd.Build());
             }
             else
@@ -234,7 +234,7 @@ namespace CSGO_Bot.Modules
             List<CommandInfo> commands = _commands.Commands.ToList();
             var embd = new EmbedBuilder();
             embd.Title = "Commands:";
-            embd.WithColor(new Color(0x016FA0));
+            embd.WithColor(Color.Red);
             foreach (CommandInfo ci in commands)
             {
                 string aliasList = "";
