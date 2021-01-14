@@ -30,7 +30,7 @@ namespace CSGO_Bot
                 .AddSingleton(_commands)
                 .BuildServiceProvider();
 
-            string token = "[TOKEN]";
+            string token = "NzQ2NTAyNTc1OTU1NzcxNDYz.X0BQsw.prsaHM3D94My92V1YmLxXv1_jPU";
 
             _client.Log += _client_Log;
 
@@ -47,6 +47,7 @@ namespace CSGO_Bot
                 TimeSpan.Zero,
                 TimeSpan.FromMinutes(1));
 
+            IntroMessage();
             await Task.Delay(-1);
 
         }
@@ -62,13 +63,18 @@ namespace CSGO_Bot
             _client.MessageReceived += HandleCommandAsync;
             await _commands.AddModulesAsync(Assembly.GetEntryAssembly(), _services);
         }
+        private async void IntroMessage()
+        {
+            await _client.SetGameAsync($"Thanks for adding me! To get started type: !help or !commands");
+        }
         private async void SetDisplayGame()
         {
+            
             while(true)
             {
                 counter++;
-                await _client.SetGameAsync($"No{counter} bugs### he!@#%^re"); 
-                Thread.Sleep(300000);
+                await _client.SetGameAsync($"Uptime: {counter} Hours"); 
+                Thread.Sleep(3600000);
             }
         }
         private async Task HandleCommandAsync(SocketMessage arg)

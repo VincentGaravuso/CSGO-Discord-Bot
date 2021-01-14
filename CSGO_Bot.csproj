@@ -147,6 +147,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="InventoryModel.cs" />
     <Compile Include="Modules\Commands.cs" />
     <Compile Include="PlayerStats.cs" />
     <Compile Include="Program.cs" />

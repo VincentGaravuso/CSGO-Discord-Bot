@@ -657,7 +657,7 @@ namespace CSGO_Bot
         [JsonProperty("rank")]
         public object Rank;
 
-        [JsonProperty("percentile")]
+        [JsonProperty("percentile", NullValueHandling = NullValueHandling.Ignore)]
         public double Percentile;
 
         [JsonProperty("displayName")]
@@ -672,7 +672,7 @@ namespace CSGO_Bot
         [JsonProperty("UserMetadata")]
         public UserMetadata20 UserMetadata;
 
-        [JsonProperty("value")]
+        [JsonProperty("value", NullValueHandling = NullValueHandling.Ignore)]
         public int Value;
 
         [JsonProperty("displayValue")]
